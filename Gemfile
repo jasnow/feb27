@@ -50,7 +50,7 @@ gem "bootsnap", require: false
 
 group :development, :test do
   gem "ruby_audit"
-  gem "spektr"
+  #HID gem "spektr" # 2/28/2023: Getting parent.const_get error so commenting this gem out.
 end
 
 group :development do
