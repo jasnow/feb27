@@ -50,7 +50,7 @@ gem "bootsnap", require: false
 
 group :development, :test do
   gem "ruby_audit"
-  gem "spektr"
+  #HID: gem "spektr" # 3/4/2023; Getting "uninitialized constant Spektr::CoreExt::String" during GitHub Actions/test step.
 end
 
 group :development do
