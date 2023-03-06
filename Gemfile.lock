@@ -89,6 +89,7 @@ GEM
     connection_pool (2.3.0)
     crass (1.0.6)
     date (3.3.3)
+    docile (1.4.0)
     erubi (1.12.0)
     globalid (1.1.0)
       activesupport (>= 5.0)
@@ -186,9 +187,15 @@ GEM
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
     sexp_processor (4.16.1)
-    slim (5.0.0)
+    simplecov (0.22.0)
+      docile (~> 1.1)
+      simplecov-html (~> 0.11)
+      simplecov_json_formatter (~> 0.1)
+    simplecov-html (0.12.3)
+    simplecov_json_formatter (0.1.4)
+    slim (5.1.0)
       temple (~> 0.10.0)
-      tilt (>= 2.0.6, < 2.1)
+      tilt (>= 2.0.6, < 2.2)
     spektr (0.4.1)
       erubi
       haml
@@ -219,7 +226,7 @@ GEM
     strings-ansi (0.2.0)
     temple (0.10.0)
     thor (1.2.1)
-    tilt (2.0.11)
+    tilt (2.1.0)
     timeout (0.3.2)
     tty-color (0.6.0)
     tty-cursor (0.7.1)
@@ -270,6 +277,7 @@ DEPENDENCIES
   redis
   ruby_audit
   selenium-webdriver
+  simplecov
   spektr
   sprockets-rails
   sqlite3 (~> 1.4)
