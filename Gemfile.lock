@@ -273,7 +273,7 @@ DEPENDENCIES
   importmap-rails
   jbuilder
   puma
-  rails (~> 7.0.4, >= 7.0.4.3)
+  rails (~> 7.0.5, >= 7.0.5)
   redis
   ruby_audit
   selenium-webdriver
