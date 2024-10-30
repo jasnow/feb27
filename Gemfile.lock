@@ -309,7 +309,7 @@ DEPENDENCIES
   jbuilder
   ostruct
   puma
-  rails (~> 8.0.0.beta1, >= 8.0.0.beta1)
+  rails (~> 8.0.0.rc2, >= 8.0.0.rc2)
   redis
   ruby_audit
   selenium-webdriver
