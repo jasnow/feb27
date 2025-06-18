@@ -132,7 +132,7 @@ GEM
       net-pop
       net-smtp
     marcel (1.0.4)
-    matrix (0.4.2)
+    matrix (0.4.3)
     mini_mime (1.1.5)
     mini_portile2 (2.8.9)
     minitest (5.25.5)
@@ -166,7 +166,7 @@ GEM
       racc (~> 1.4)
     nokogiri (1.18.8-x86_64-linux-musl)
       racc (~> 1.4)
-    ostruct (0.6.1)
+    ostruct (0.6.2)
     parser (3.3.8.0)
       ast (~> 2.4.1)
       racc
@@ -220,12 +220,12 @@ GEM
       thor (~> 1.0, >= 1.2.2)
       zeitwerk (~> 2.6)
     rake (13.3.0)
-    rdoc (6.14.0)
+    rdoc (6.14.1)
       erb
       psych (>= 4.0.0)
     redis (5.4.0)
       redis-client (>= 0.22.0)
-    redis-client (0.24.0)
+    redis-client (0.25.0)
       connection_pool
     regexp_parser (2.10.0)
     reline (0.6.1)
